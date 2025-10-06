@@ -10,9 +10,22 @@
 		1BB6202B2E37F4A5003539F7 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1B94AF072E942B0E009A9710 /* Exceptions for "NewProject" folder in "NewProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1BB6202A2E37F4A5003539F7 /* NewProject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1BB6202D2E37F4A5003539F7 /* NewProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1B94AF072E942B0E009A9710 /* Exceptions for "NewProject" folder in "NewProject" target */,
+			);
 			path = NewProject;
 			sourceTree = "<group>";
 		};
