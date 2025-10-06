@@ -7,26 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1BB6202B2E37F4A5003539F7 /* Test-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB6202B2E37F4A5003539F7 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1BB6203D2E37F4A7003539F7 /* Exceptions for "Test-Project" folder in "Test-Project" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 1BB6202A2E37F4A5003539F7 /* Test-Project */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1BB6202D2E37F4A5003539F7 /* Test-Project */ = {
+		1BB6202D2E37F4A5003539F7 /* NewProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1BB6203D2E37F4A7003539F7 /* Exceptions for "Test-Project" folder in "Test-Project" target */,
-			);
-			path = "Test-Project";
+			path = NewProject;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +32,7 @@
 		1BB620222E37F4A5003539F7 = {
 			isa = PBXGroup;
 			children = (
-				1BB6202D2E37F4A5003539F7 /* Test-Project */,
+				1BB6202D2E37F4A5003539F7 /* NewProject */,
 				1BB6202C2E37F4A5003539F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +40,7 @@
 		1BB6202C2E37F4A5003539F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BB6202B2E37F4A5003539F7 /* Test-Project.app */,
+				1BB6202B2E37F4A5003539F7 /* NewProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BB6202A2E37F4A5003539F7 /* Test-Project */ = {
+		1BB6202A2E37F4A5003539F7 /* NewProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BB6203E2E37F4A7003539F7 /* Build configuration list for PBXNativeTarget "Test-Project" */;
+			buildConfigurationList = 1BB6203E2E37F4A7003539F7 /* Build configuration list for PBXNativeTarget "NewProject" */;
 			buildPhases = (
 				1BB620272E37F4A5003539F7 /* Sources */,
 				1BB620282E37F4A5003539F7 /* Frameworks */,
@@ -74,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1BB6202D2E37F4A5003539F7 /* Test-Project */,
+				1BB6202D2E37F4A5003539F7 /* NewProject */,
 			);
-			name = "Test-Project";
+			name = NewProject;
 			packageProductDependencies = (
 			);
 			productName = "Test-Project";
-			productReference = 1BB6202B2E37F4A5003539F7 /* Test-Project.app */;
+			productReference = 1BB6202B2E37F4A5003539F7 /* NewProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BB620262E37F4A5003539F7 /* Build configuration list for PBXProject "Test-Project" */;
+			buildConfigurationList = 1BB620262E37F4A5003539F7 /* Build configuration list for PBXProject "NewProject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BB6202A2E37F4A5003539F7 /* Test-Project */,
+				1BB6202A2E37F4A5003539F7 /* NewProject */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +134,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZB57Y665JK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test-Project/Info.plist";
+				INFOPLIST_FILE = NewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -179,7 +166,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZB57Y665JK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test-Project/Info.plist";
+				INFOPLIST_FILE = NewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BB620262E37F4A5003539F7 /* Build configuration list for PBXProject "Test-Project" */ = {
+		1BB620262E37F4A5003539F7 /* Build configuration list for PBXProject "NewProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BB620412E37F4A7003539F7 /* Debug */,
@@ -335,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BB6203E2E37F4A7003539F7 /* Build configuration list for PBXNativeTarget "Test-Project" */ = {
+		1BB6203E2E37F4A7003539F7 /* Build configuration list for PBXNativeTarget "NewProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BB6203F2E37F4A7003539F7 /* Debug */,
